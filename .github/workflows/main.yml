@@ -13,3 +13,6 @@ jobs:
           client-id: db194720-afd8-432e-8f4d-3bd7d41d0e6a
           tenant-id: cac7b9c4-b5d4-4966-b6e4-39bef0bebb46
           subscription-id: 4fd63c38-a6be-4fb1-ac9e-ab1781af69ad
+          
+      - name: Test
+        run: az group list -o table
